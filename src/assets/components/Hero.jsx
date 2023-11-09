@@ -8,6 +8,7 @@ import { computerimage } from ".";
 const Hero = () => {
   console.log(`${browserName} ${browserVersion}`);
   console.log(isMobile ? "Mobile" : "Desktop");
+
   const userAgent = window.navigator.userAgent.toLowerCase();
 
   // Check if the user agent contains "instagram" (for Instagram)
