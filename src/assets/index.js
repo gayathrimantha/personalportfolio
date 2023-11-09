@@ -38,7 +38,8 @@ import engineershub from "./engineershub.png";
 import aliensfest from "./aliensfest.png";
 import todo from "./todo.png";
 import netflix from "./netflix.jpeg";
-
+import mahdairy from "./mahdairy.png";
+import qwiksto from "./qwiksto.png";
 
 export {
   logo,
@@ -78,4 +79,6 @@ export {
   aliensfest,
   todo,
   netflix,
+  mahdairy,
+  qwiksto,
 };
