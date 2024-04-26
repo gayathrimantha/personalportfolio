@@ -33,6 +33,7 @@ import {
   netflix,
   qwiksto,
   mahdairy,
+  jungle,
 } from "../assets";
 
 export const navLinks = [
@@ -56,12 +57,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -115,7 +112,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Development Intern",
+    title: "React.js Developer",
     company_name: "EngineersHub",
     icon: ehwhite,
     iconBg: "#383E56",
@@ -127,7 +124,7 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Development Intern",
+    title: "React Native Developer",
     company_name: "EngineersHub",
     icon: ehred,
     iconBg: "#E6DEDD",
@@ -157,16 +154,29 @@ const experiences = [
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#E6DEDD",
-    date: "December 2022 - Present",
+    date: "December 2022 - December 2023",
     points: [
-      "Received a promotion to Analyst.",
-      "  Proficiently developed complex UI modules using React JS, worked on the Screen Manager module for dynamic UI screen generation.",
+      "Received a fast track promotion to Analyst(In 1.2 years).",
+      "Proficiently developed complex UI modules using React JS, worked on the Screen Manager module for dynamic UI screen generation.",
       " Worked in creating end-user portals utilizing React and Redux, enhancing functionality and user experience.",
       "Actively contributed to continuous improvement of product UI and functionality",
       "Successfully optimized website performance by proficiently optimizing code and reducing page load times.",
       "Developed modules in the admin panel (List Manager, Business Rule, Form Manager) for a finance application with Microsoft, using React JS.",
       "Collaborated with the design team to implement responsive and user-friendly UI designs, ensuring a seamless user experience across various devices and screen sizes using React JS.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Senior Software Developer",
+    company_name: "Jungle",
+    icon: jungle,
+    iconBg: "#E6DEDD",
+    date: "February 2023 - Present",
+    points: [
+      "Identified and resolved critical bugs that impacted application functionality and stability.",
+      "Implemented performance enhancements by optimizing code structure and leveraging caching mechanisms, resulting in a smoother user experience.",
+      "Proactively addressed user pain points by analyzing user feedback and suggesting UI/UX improvements that enhanced usability and user satisfaction.",
+      "Championed the adoption of best practices in code development and testing, contributing to a more maintainable and reliable codebase.",
+      "Mentored junior developers by providing guidance and support, fostering a collaborative and knowledge-sharing development environment.",
     ],
   },
 ];
@@ -174,13 +184,22 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Gayathri was a 2nd year graduation student when she was working with us, She has an excellent passion and curiosity towards technology and gives her 100% in delivering the best quality work",
-    name: "Aryan Raj",
-    designation: "Founder",
-    company: "EngineersHub",
+      "Gayathri has demonstrated exceptional proficiency in React JS, showcasing a high level of skill in developing intricate UI modules. Her notable contribution to the creation of the Screen Manager module has been instrumental in enabling dynamic generation of UI screens, showcasing innovation and technical expertise. Her role in the creation and enhancement of end-user portals reflects skillful utilization of React and Redux, resulting in engaging and functional interfaces. Gayathri has played a vital role in continuously improving the product's UI and overall functionality, contributing significantly to a positive user experience. One of Gayathri's notable achievements is the successful optimization of website performance. Through meticulous code optimization and the implementation of technical strategies, she achieved a significant reduction in page load times, demonstrating a keen understanding of performance optimization. In the realm of admin panel module development, Gayathri has excelled by developing key modules, such as the List Manager for a finance application, leveraging the power of React JS. Her collaborative approach with the design team is commendable. Gayathri ensured the seamless implementation of responsive and user-friendly UI designs, emphasizing a focus on responsiveness and user-centric design principles. This collaboration has resulted in a consistent and enjoyable user experience across various devices and screen sizes. Overall, Gayathri's contributions reflect a combination of technical expertise, innovation, and a commitment to delivering high-quality UI solutions. Her efforts have significantly contributed to the success of our projects.",
+    name: "Swaraj",
+    designation: "Team Lead",
+    company: "Accenture",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxTDnU-eKhqxunsb2PsKieo3tpP_gPTWp27g&usqp=CAU",
   },
+  // {
+  //   testimonial:
+  //     "Gayathri was a 2nd year graduation student when she was working with us, She has an excellent passion and curiosity towards technology and gives her 100% in delivering the best quality work",
+  //   name: "Aryan Raj",
+  //   designation: "Founder",
+  //   company: "EngineersHub",
+  //   image:
+  //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxTDnU-eKhqxunsb2PsKieo3tpP_gPTWp27g&usqp=CAU",
+  // },
   {
     testimonial:
       "Gayathri is one of the best employees in the team, she has learnt products modelling in a very short span of time and involved in discussions with SME's to understand the framework of deliverables. She took ownership of the assigned tasks and conducted internal walkthrough's which were quite clear.Wishing the best for her.",

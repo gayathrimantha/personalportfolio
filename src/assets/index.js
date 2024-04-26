@@ -40,6 +40,7 @@ import todo from "./todo.png";
 import netflix from "./netflix.jpeg";
 import mahdairy from "./mahdairy.png";
 import qwiksto from "./qwiksto.png";
+import jungle from "./jungle.png";
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   netflix,
   mahdairy,
   qwiksto,
+  jungle,
 };
